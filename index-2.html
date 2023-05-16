@@ -19,7 +19,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1>當前叫號<br ><span id="reservation-count"></span><br ><br ><br ></h1>
+						<h1>當前叫號<br ><span id="nowreservation-count"></span><br ><br ><br ></h1>
 					</header>
 
 				
@@ -62,11 +62,7 @@
 			<script src="asset/js/util.js"></script>
 			<script src="asset/js/main.js"></script>
 
-			<script>
-                // 訪問index.html中的reservationCount變數
-                var reservationCount = window.parent.sharedData.reservationCount;
-                document.getElementById("reservation-count").textContent = reservationCount;
-            </script>
+			<script src="var.js"></script>
 
 	</body>
 </html>
