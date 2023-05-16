@@ -5,7 +5,7 @@ function increaseCount() {
 	reservationCount++; // 增加計數器
     console.log(reservationCount); // 在控制台中顯示計數器的值
 }
-setInterval(increaseCount, 2000);
+setInterval(increaseCount, 2500);
 
 function increaseReservationCount() {
 	reservationCount++; // 增加預約人數
