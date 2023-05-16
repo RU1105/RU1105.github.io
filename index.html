@@ -69,28 +69,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
-				var reservationCount = 87; // 初始化預約人數
-
-				function increaseCount() {
-					reservationCount++; // 增加計數器
-    				console.log(reservationCount); // 在控制台中顯示計數器的值
-				}
-				setInterval(increaseCount, 3000);
-
-				function increaseReservationCount() {
-				  reservationCount++; // 增加預約人數
-				  document.getElementById("reservation-count").textContent = reservationCount; // 更新預約人數的元素內容
-				}
-				
-				function showQRCode() {
-					document.getElementById('image-container').src = "images/qr-code.png";
-				}
-
-				var sharedData = {
-					reservationCount: reservationCount
-				};
-			</script>
+		
+			<script src="var.js"></script>
 
 
 	</body>
