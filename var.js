@@ -19,5 +19,5 @@ function nowReservationCount() {
 setInterval(nowReservationCount, 4000);
 
 function showQRCode() {
-	document.getElementById('image-container').src = "images/pic02.jpg";
+	document.getElementById('image-container').src = "images/qr-code.png";
 }
